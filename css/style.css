@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+padding: 0;
+}
+/* navbar */
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+.container h1{
+    padding-right: 200px;
+    font-size: 30px
+}
+.container .links{
+    padding-right: 500px;
+width: 25%;
+}
+.container .links ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-between ;
+}
+.container .links ul li a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: bolder;
+}
+.container .links ul li a::before{
+    content: "";
+    position: absolute;
+    background-color: purple;
+    width: 80px;
+    height: 3px;
+    left: 600px;
+    top: 60px;   
+}
+.container i{
+    font-size: 30px;
+    padding-left: 100px;
+}
+
+/* header */
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: lightgray;
+    align-items: center;
+}
+.header h1{
+    font-size: 4rem;  
+    padding-left: 150px; 
+}
+.header .image img{
+    width: 50%;
+    padding-left: 300px;
+}
+.header .caption p{
+    width: 100%;
+padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+}
+.header .caption p span{
+    color: purple;
+}
+.header .caption button{
+    border: none;
+    padding:  15px 35px;
+    color: white;
+background-color: purple;
+border-radius:  100vh 100vh;
+}
+.header .caption .button{
+    padding-left: 150px;
+}
+
+/* icons */
+.main {
+margin-top: 80px;
+display: flex;
+justify-content: space-evenly;
+}
+.main .one{
+    display: flex;
+}
+.main .one .icons i{
+    font-size: 30px;
+    padding-right: 5px;
+}
+.main .one .caption p{
+color: lightslategray;
+}
+
+/* about */
+.about{
+    margin-top: 80px;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.about .two{
+    display: flex;
+    background-color: lightgray;
+   align-items: center;
+   width: 50%;
+}
+.about .two .caption{
+padding-left: 20px;
+width: 100%;
+}
+.about .two .caption a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+.about .two .caption p::before{
+    content: "";
+    position: absolute;
+    background-color: purple;
+    width: 80px;
+    height: 3px;
+    right: 650px;
+    top: 965px;   
+}
+.about h1{ 
+    padding-bottom: 20px;
+}
+.about .two .image img{
+    width: 70%;
+    padding-left: 153px;
+}
+.about .caption p{
+    padding-bottom: 10px;
+}
+.about .three{
+    display: flex;
+    background-color: lightgray;
+   align-items: center;
+   width: 50%;
+   margin-left: 20px;
+}
+.about .three .caption{
+padding-left: 20px;
+width: 100%;
+}
+.about .three .caption a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+.about .three .caption a::before{
+    content: "";
+    position: absolute;
+    background-color: purple;
+    width: 80px;
+    height: 3px;
+    right: 730px;
+    top: 25px;   
+}
+.about .three .image img{
+    width: 98%;
+    padding-left: 9px;
+    height: 100%;
+}
+
+/* last sec */
+.last{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.last .caption{
+    text-align: center;
+}
+.last .caption .koks1{
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+    position: relative;
+}
+.last .caption .koks1::before{
+    content: "";
+    position: absolute;
+    background-color: purple;
+    width: 40px;
+    height: 20px;
+   left: 110px;
+    top: 39px;   
+}
+.last .caption .koks2{
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+    position: relative;
+}
+.last .caption .koks2::before{
+    content: "";
+    position: absolute;
+    background-color: purple;
+    width: 40px;
+    height: 20px;
+   right: 338px;
+    top: 39px;   
+}
+.last .caption .koks{
+    color: purple;
+    text-decoration: none;
+    position: relative;
+}
+.last .caption .koks::before{
+    content: "";
+    position: absolute;
+    background-color: purple;
+    width: 73px;
+    height: 3px;
+   left: 0px;
+    top: 15px;   
+}
+.last .caption .koks::after{
+    content: "";
+    position: absolute;
+    background-color: purple;
+    width: 40px;
+    height: 20px;
+   left: 348px;
+    top: 39px;   
+}
+.last .caption h1{
+    font-size: 2.5rem;
+    position: relative;
+    margin-bottom: 50px;
+}
+.last .caption h1::before{
+    content: "";
+    position: absolute;
+    background-color: purple;
+    width: 80px;
+    height: 3px;
+    right: 730px;
+    top: 55px;   
+}
+.last .images{
+    margin-top: 20px;
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.last .images .one{
+   background-color: lightgray;
+   margin-right: 20px;
+   width: 25%;
+   padding-bottom: 35px;
+}
+.last .images .one::before{
+    content: "";
+    position: absolute;
+    background-color: purple;
+    width: 40px;
+    height: 20px;
+    right: 1440px;
+    top: 1249px;   
+}
+.last .images .two{
+    background-color: lightgray;
+    margin-right: 20px;
+    width: 25%;
+ }
+ .last .images .three{
+    background-color: lightgray;
+    margin-right: 20px;
+    width: 25%;
+ }
+ .last .images .four{
+    background-color: lightgray;
+    width: 25%;
+ }
+ .last .images .one img{
+   width:70% ;
+   padding-left: 50px;
+   padding-top: 50px;
+ }
+ .last .images .two img{
+   width:70% ;
+   padding-left: 50px;
+   padding-top: 50px;
+  }
+  .last .images .three img{
+     width:83% ;
+     padding-left: 30px;
+   padding-top: 50px;
+  }
+  .last .images .four img{
+   width:70% ;
+   padding-left: 50px;
+   padding-top: 50px;
+  }
+
+  /* media query */
+  @media only screen and (max-width: 1300px) {
+    .container .links ul li{
+        margin-right: 10px;
+    }
+    .header{
+        display: block;
+    }
+    .header .caption p{
+        padding-left: 0;
+    }
+    .header .caption h1{
+        padding-left: 0;
+    }
+    .header .caption .button{
+        padding-left: 0;
+    }
+    .header .image{
+        width: 100%;
+    }
+    .header .image img{
+padding-left: 0;
+    }
+    .about {
+       display: block;
+     }
+     .about .two{
+         width: 100%;
+     }
+     .about .three{
+         width: 100%;
+         margin-left: 0;
+         margin-top: 10px;
+     }
+     .about .two .image img{
+         width: 80%;
+     }
+     .about .two .caption p::before{
+         opacity: 0;
+     }
+     .container .links ul li a::before{
+         opacity: 0;
+     }
+     .last .caption .koks1::before{
+         opacity: 0;
+     }
+     .last .caption .koks2::before{
+         opacity: 0;
+     }
+     .last .caption .koks::before{
+         opacity: 0;
+     }
+     .last .caption .koks::after{
+         opacity: 0;
+     }
+     .last .caption h1::before{
+         opacity: 0;
+     }
+     .last .images{
+         display: block;
+     }
+     .last .images .one{
+        width: 100%;
+     }
+     .last .images .two{
+        width: 100%;
+        margin-top: 10px;
+     }
+     .last .images .three{
+        width: 100%;
+        margin-top: 10px;
+     }
+     .last .images .four{
+        width: 100%;
+        margin-top: 10px;
+     }
+   }
